@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+  
+
+/* Estilo tamaños en Main*/
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {  font-size: 2.5rem; 
+      
+}
+h2 { 
+  font-size: 2rem; 
+  font-weight: 300;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a { text-decoration: none; }
+
+
+/* Header */
+#mainheader {
+  background: url('../img/3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 50px;
+  color: whitesmoke;
+  text-decoration: #02132b;
+  
+}
+
+#bodyheader {
+  height: 20vh;
+  padding-top: 50px;
+}
+
+/* Navbar */
+#navbar {
+  background: #02132b;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 8px;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+#navbar .logo span {
+  color: #45BCE9;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+  text-transform: uppercase;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #45BCE9;
+}
+
+/* Showcase - posicionamiento */
+#showcase {
+  text-align: right;
+  padding-top: 200px;
+}
+
+#showcase h1 {
+  padding-left: 300px;
+}
+
+#showcase h1 span {
+  font-weight: 300;
+}
+
+#showcase p {
+  padding-left: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ 
+}
+
+#showcase .btn {
+  text-transform: uppercase;
+}
+/* Estilo de las Class */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding:10 20px;
+  
+}
+
+.container2 {
+  margin: auto;
+  max-width: 1200px;
+  overflow: auto;
+  padding:10 20px;
+  
+}
+
+.large { font-size: 1.25rem; }
+
+.display-1 { 
+  font-size: 75px; 
+  text-transform: uppercase;
+}
+
+.display-2 { 
+  font-size: 60px; 
+  font-family: fantasy;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 15px 50px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 30px;
+}
+
+.btn-light {
+  background: #45BCE9;
+  border: 1px solid #45BCE9;
+  color: #fff;
+}
+
+.btn-light:hover {
+  background: #fff;
+  border: 1px solid #45BCE9;
+  color: #45BCE9;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.7rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000;
+  background-color: #F2F3F6;
+  background-clip: padding-box;
+  border: 1px solid #F2F3F6;
+  border-radius: 0.25rem;
+}
+
+
+
+#intro-servicio {
+  color: whitesmoke;
+  background-color: #02132b;
+  text-align: center;
+  background-image: url(../img/5.png);
+  height: 40rem;
+  display: flex;
+
+}
+
+#quienes-somos {
+  color: whitesmoke;
+  background-color: #02132b;
+  height: 60hv; 
+
+}
+
+.container3 {
+padding:20px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+
+.container3 img{
+  max-width: 100%;
+}
+
+.container3 div {
+
+  margin: 20px;
+  max-width: 600px;
+  overflow: auto;
+  padding:10 20px;
+  
+}
+
+
+/* Pagina Importacion */
+#impo {
+  color: #091726;
+  height: 70vh;
+  padding-top: 50px;
+}
+
+#impo h2 {
+  padding-bottom: 20px;
+}
+
+#impo p {
+  padding-bottom: 20px;
+}
+
+.impo-izq {
+  float: left;
+  width: 50%;
+  padding-right: 40px;
+}
+
+.impo-izq .sub {
+  font-weight: 600;
+  font-size:larger;
+}
+
+.impo-der {
+  float: right;
+  width: 50%;
+  padding-left: 40px;
+}
+
+/* Exportaciop */
+#expo {
+  height: 70vh;
+  padding-top: 50px;
+}
+
+#expo h2 {
+  padding-bottom: 50px;
+}
+
+.expo-box {
+  float: left;
+  width: 33%;
+  padding: 20px;
+}
+
+.expo-box img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+/* Contact */
+#contact {
+  height: 70vh;
+  padding-top: 50px;
+}
+
+#contact h2 {
+  padding-bottom: 20px;
+}
+
+#contact form {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#contact .btn {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Footer */
+
+#main-footer {
+  padding: 10px;
+  height: 12vh;
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: #02132b;
+}
+
+footer a {
+  margin-top: 10px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+h4{
+  margin-top: 10px ;
+  color: whitesmoke;
+}
+
