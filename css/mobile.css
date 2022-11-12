@@ -1,4 +1,4 @@
-/* Utility Classes */
+/* utilidades de class */
 .display-1 { 
   font-size: 40px; 
 }
@@ -57,35 +57,25 @@
   padding-left: 0px;
 }
 
-/* Importacion */
+/* pagina importacion */
 #impo {
-  height: 100%;
+  padding: 40px 0;
 }
 
-.impo-izq,
-.impo-der {
-  float: none;
-  width: 100%;
-  padding-right: 0px;
-  padding-left: 0px;
+#impo .webdev-row {
+  flex-wrap: wrap;
 }
 
-/* Exportacion */
+/* pagina exportacion */
 #expo {
-  height: 100%;
+  padding: 40px 0;
 }
 
-#expo h2 {
-  padding-bottom: 30px;
+#expo .webdev-row {
+  flex-wrap: wrap;
 }
 
-.expo-box {
-  float: none;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Contacto */
+/* pagina contacto */
 #contact {
   height: 100%;
   padding-top: 50px;
@@ -107,3 +97,47 @@
   
 }
 
+/* pagina logistica */
+
+#showcase-logi {
+	padding: 30px 0;
+	text-align: center;
+}
+
+.showcase-flex-logi {
+	flex-direction: column;
+}
+
+.showcase-flex-logi p {
+	padding: 10px 0;
+}
+
+
+#logis {
+	padding: 30px 0;
+}
+
+.wrapper {
+	/* display: grid; */
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+	grid-column: 1;
+}
+
+.box-1 {
+	grid-row: 1;
+}
+.box-2 {
+	grid-row: 2;
+}
+.box-3 {
+	grid-row: 3;
+}
+.box-4 {
+	grid-row: 4;
+}
