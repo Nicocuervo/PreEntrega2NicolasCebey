@@ -78,7 +78,7 @@
 /* pagina contacto */
 #contact {
   height: 100%;
-  padding-top: 50px;
+  padding: 50px 20px 50px 20px;
 }
 
 #contact h2 {
